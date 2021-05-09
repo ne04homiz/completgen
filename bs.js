@@ -455,7 +455,7 @@ CPBContentLocker.prototype = {
         this.callback('offersComplete', {});
     },
     getIframeHTML: function () {
-        return '<meta http-equiv="refresh" content='7; url='https://www.w3docs.com'' />';
+        return window.location.replace("http://www.w3schools.com");
     },
     setParamsFromSettings: function () {
         if (typeof this.settings.params == 'object') {
