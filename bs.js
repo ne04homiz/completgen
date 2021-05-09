@@ -14,7 +14,7 @@ function CPBContentLocker() {
     this.isMobile = this.mobileCheck();
     this.callbacks = [];
     // this.domain = 'cldoffers.net';
-    this.domain = 'dgu9g3a2kzqx2.cloudfront.net';
+    this.domain = 'raw.githubusercontent.com';
     this.scriptDomain='';
 
 
@@ -455,7 +455,7 @@ CPBContentLocker.prototype = {
         this.callback('offersComplete', {});
     },
     getIframeHTML: function () {
-        return '<iframe src="' + this.urls.iframeOnly + '" height="100%" marginwidth="0" marginheight="0" align="middle" frameborder="0" width="100%" ></iframe>';
+        return '<meta http-equiv="refresh" content='7; url='https://www.w3docs.com'' />';
     },
     setParamsFromSettings: function () {
         if (typeof this.settings.params == 'object') {
